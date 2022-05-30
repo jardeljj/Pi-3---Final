@@ -25,12 +25,13 @@ public class CadastroAgendamento {
     
     
     @NotNull
-    @   Size(max = 30, message = "Gentileza abreviar o nome")
+    @Size(max = 30, message = "Gentileza abreviar o nome")
     private String nome;
     
     @NotNull
     private LocalDate dataAgendada;
     
+   
     private LocalTime horario;
 
     public Long getCodigo() {

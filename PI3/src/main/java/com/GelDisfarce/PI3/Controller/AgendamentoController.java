@@ -62,4 +62,15 @@ public class AgendamentoController {
         
     }
     
+    /*@RequestMapping
+    public ModelAndView ListarAgendamento(@RequestParam(defaultValue = "") String nome) {
+      
+        List<CadastroAgendamento> todosAgendamento = AgendamentosHorarios.findAll();
+        
+        
+        ModelAndView mv = new ModelAndView("ListaAgendamento");
+        mv.addObject("agendamentos", todosAgendamento);
+        return mv;
+        
+    }*/
 }
