@@ -1,0 +1,5 @@
+com\GelDisfarce\PI3\Model\CadastroCliente.class
+com\GelDisfarce\PI3\Model\StatusCliente.class
+com\GelDisfarce\PI3\Repository\CadastroClientes.class
+com\GelDisfarce\PI3\Pi3Application.class
+com\GelDisfarce\PI3\Controller\ClienteController.class
